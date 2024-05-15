@@ -1,0 +1,15 @@
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero!"
+    else:
+        return a / b
+
+# Taking input from the user
+num1 = float(input("Enter the dividend: "))
+num2 = float(input("Enter the divisor: "))
+
+# Performing division
+result = divide(num1, num2)
+
+# Displaying the result
+print("The result of division is:", result)
